@@ -49,5 +49,12 @@ h1 {
 }
 
 .img-fluid {
-padding-top: 20px;
+  padding-top: 20px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
 }
