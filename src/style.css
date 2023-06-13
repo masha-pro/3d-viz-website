@@ -28,15 +28,14 @@ h1 {
   font-weight: 600;
   letter-spacing: 0.1em;
   line-height: 85px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   max-width: 1000px;
   padding-bottom: 40px;
   text-align: center;
   text-transform: uppercase;
 }
 
-.contact-us {
+.contact-button {
   border-radius: 50px;
   display: block;
   font-family: "Montserrat", sans-serif;
@@ -54,7 +53,13 @@ h1 {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 40px;
+    padding: 0 10px 20px;
+  }
+  .contact-button {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 12px 20px;
   }
 }
