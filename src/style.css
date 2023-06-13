@@ -1,3 +1,46 @@
-h1 {
+body {
+  background-color: black;
   font-family: "Roboto", sans-serif;
+}
+
+.bg-header-color {
+  background: #202020;
+}
+
+.navbar-brand {
+  font-size: 14px;
+}
+
+.hero {
+  background-image: url(/img/1.jpg);
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  padding-top: 250px;
+  padding-bottom: 350px;
+}
+
+h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 85px;
+  padding-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contact-us {
+  border-radius: 50px;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 17px;
+  padding: 18px 40px;
+  text-transform: uppercase;
 }
