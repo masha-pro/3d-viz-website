@@ -47,3 +47,7 @@ h1 {
   padding: 18px 40px;
   text-transform: uppercase;
 }
+
+.img-fluid {
+padding-top: 20px;
+}
