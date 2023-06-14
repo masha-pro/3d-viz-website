@@ -150,10 +150,10 @@ h1 {
 @media (max-width: 576px) {
   .work-heading {
     font-size: 32px;
-    margin: 30px auto;
+    margin: 20px auto;
   }
 
   .carousel {
-    margin: 0 30px 30px;
+    margin: 0 20px 20px;
   }
 }
