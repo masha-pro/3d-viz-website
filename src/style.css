@@ -10,6 +10,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+p {
+  color: var(--secondary-color);
+}
+
 .contact-button {
   border-radius: 50px;
   display: block;
@@ -84,7 +88,6 @@ h1 {
 }
 
 .about-paragraph {
-  color: var(--secondary-color);
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -155,5 +158,77 @@ h1 {
 
   .carousel {
     margin: 0 20px 20px;
+  }
+}
+
+/* Contact */
+
+.contact-heading {
+  margin: 50px auto;
+  padding: 0;
+}
+
+.contact-paragraph {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  margin: 0 60px;
+  max-width: 450px;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.email-link {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+form {
+  margin: 0 60px;
+  max-width: 650px;
+}
+
+.form-control {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.send-button {
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+  .contact-heading {
+    font-size: 32px;
+    margin: 20px auto;
+  }
+  .contact-paragraph {
+    font-size: 12px;
+    margin: 0 40px;
+  }
+  form {
+    margin: 0 40px;
+  }
+  .form-control {
+    font-size: 12px;
+  }
+  .send-button {
+    font-size: 12px;
+    padding: 10px 25px;
   }
 }
