@@ -92,6 +92,10 @@ h1 {
   padding-top: 20px;
 }
 
+.home-image:hover {
+  opacity: 0.9;
+}
+
 .contact-button {
   border-radius: 50px;
   display: block;
@@ -138,7 +142,7 @@ h1 {
     line-height: 40px;
     padding: 0 10px 20px;
   }
-  
+
   .contact-button {
     font-size: 10px;
     line-height: 12px;
@@ -149,7 +153,7 @@ h1 {
 /* About page */
 
 .about-heading {
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 0;
 }
 
@@ -178,7 +182,6 @@ h1 {
 }
 
 .social-icons {
-  color: var(--accent-color);
   text-align: center;
   margin: 25px auto 0;
 }
@@ -186,6 +189,10 @@ h1 {
 .social-icons i {
   font-size: 20px;
   margin: 0 10px;
+  color: var(--accent-color);
+}
+.social-icons i:hover {
+  color: var(--secondary-color);
 }
 
 .about-image {
@@ -231,7 +238,7 @@ h1 {
 /* Work */
 
 .work-heading {
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 0;
 }
 
@@ -253,7 +260,7 @@ h1 {
 /* Contact */
 
 .contact-heading {
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 0;
 }
 
