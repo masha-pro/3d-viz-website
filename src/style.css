@@ -115,9 +115,9 @@ h1 {
     padding: 15px 30px;
   }
 
-  i {
-    padding-top: 10px;
-    font-size: 20px;
+  nav i {
+    padding-top: 16px;
+    font-size: 25px;
   }
 
   .brand {
@@ -138,6 +138,7 @@ h1 {
     line-height: 40px;
     padding: 0 10px 20px;
   }
+  
   .contact-button {
     font-size: 10px;
     line-height: 12px;
