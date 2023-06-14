@@ -28,6 +28,26 @@ p {
 
 /* Homepage */
 
+nav {
+  padding: 20px 60px;
+}
+
+nav a {
+  line-height: 40px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  color: var(--secondary-color);
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+}
+
 .hero {
   background-image: url(/img/1.jpg);
   background-repeat: no-repeat;
@@ -70,16 +90,22 @@ h1 {
 }
 
 /* About page */
-.about {
-  padding: 30px 40px;
+
+.about-heading {
+  margin: 50px auto;
+  padding: 0;
+}
+
+.about-section {
+  padding: 0 40px 20px;
 }
 
 .about-us,
 .our-services {
-  padding: 20px;
+  padding: 0 20px 20px;
 }
 
-.about-heading {
+.about-paragraph-heading {
   color: var(--accent-color);
   font-size: 18px;
   line-height: 21px;
@@ -110,7 +136,7 @@ h1 {
 }
 
 @media (max-width: 576px) {
-  .about {
+  .about-section {
     padding: 15px 20px;
   }
 
@@ -120,12 +146,18 @@ h1 {
   }
 
   .about-heading {
-    font-size: 14px;
-    text-align: center;
+    font-size: 32px;
+    margin: 20px auto 0;
   }
-  .about-paragraph {
+  .about-paragraph-heading {
     font-size: 14px;
     line-height: 24px;
+    text-align: center;
+  }
+
+  .about-paragraph {
+     font-size: 14px;
+     line-height: 24px;
     text-align: center;
   }
 
