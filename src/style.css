@@ -98,6 +98,7 @@ h1 {
 }
 
 .social-icons i {
+  font-size: 20px;
   margin: 0 10px;
 }
 
@@ -124,6 +125,12 @@ h1 {
     line-height: 24px;
     text-align: center;
   }
+
+  .social-icons i {
+    font-size: 14px;
+    margin: 0 8px;
+  }
+
   .about-image {
     padding: 30px;
   }
