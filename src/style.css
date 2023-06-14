@@ -168,6 +168,10 @@ h1 {
   padding: 0;
 }
 
+.contact-form-image {
+  max-height: 346px;
+}
+
 .contact-paragraph {
   font-size: 14px;
   font-weight: 500;
@@ -210,6 +214,11 @@ form {
   letter-spacing: 0.1em;
   padding: 10px 30px;
   text-transform: uppercase;
+}
+
+.contact-image {
+  margin-right: 60px;
+  border-radius: 10px;
 }
 
 @media (max-width: 576px) {
