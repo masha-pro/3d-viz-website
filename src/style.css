@@ -67,19 +67,19 @@ nav span {
   color: var(--secondary-color);
   background-color: var(--header-color);
   padding: 20px 40px;
+  align-items: center;
 }
 
 .footer-brand {
   font-size: 18px;
   font-weight: 500;
-  padding-top: 10px;
-  padding-right: 10px;
   text-transform: uppercase;
 }
 
 .footer .social-icons {
   margin: 0;
-  padding-top: 10px;
+  padding: 0 20px;
+  min-width: 163px;
 }
 
 .footer .social-icons i {
@@ -93,6 +93,7 @@ nav span {
 
 .footer-rights {
   font-size: 14px;
+  text-align: right;
 }
 
 .footer-rights a {
@@ -103,6 +104,21 @@ nav span {
 
 .footer-rights a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 15px 30px;
+  }
+
+  .footer-brand {
+    font-size: 14px;
+  }
+
+  .footer .social-icons {
+    padding: 0;
+    text-align: right;
+  }
 }
 
 /* Homepage */
