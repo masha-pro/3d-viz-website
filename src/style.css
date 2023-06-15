@@ -107,15 +107,15 @@ footer .footer-rights a:hover {
 }
 
 @media (max-width: 576px) {
-  .footer {
+  footer {
     padding: 15px 30px;
   }
 
-  .footer-brand {
+  footer .footer-brand {
     font-size: 14px;
   }
 
-  .footer .social-icons {
+  footer .social-icons {
     padding: 0;
     text-align: right;
   }
