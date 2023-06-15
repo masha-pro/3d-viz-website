@@ -318,13 +318,13 @@ h1 {
 
 /* Contact */
 
+.contact-form-image {
+  margin: 0 40px;
+}
+
 .contact-heading {
   margin: 30px auto;
   padding: 0;
-}
-
-.contact-form-image {
-  max-height: 346px;
 }
 
 .contact-paragraph {
@@ -332,8 +332,8 @@ h1 {
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.2em;
-  margin: 0 60px;
   max-width: 450px;
+  padding: 0 20px;
   text-transform: uppercase;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -348,8 +348,8 @@ h1 {
 }
 
 form {
-  margin: 0 60px;
   max-width: 650px;
+  padding: 0 20px;
 }
 
 .form-control {
@@ -376,9 +376,13 @@ form {
   transition: all 100ms ease-in-out;
 }
 
+.contact-form-image .col-6 {
+  padding: 0;
+}
+
 .contact-image {
-  margin-right: 60px;
   border-radius: 10px;
+
 }
 
 @media (max-width: 576px) {
