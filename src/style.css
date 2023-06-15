@@ -63,46 +63,46 @@ nav span {
 
 /* Footer */
 
-.footer {
+footer {
   color: var(--secondary-color);
   background-color: var(--header-color);
   padding: 20px 40px;
   align-items: center;
 }
 
-.footer-brand {
+footer .footer-brand {
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
-.footer .social-icons {
+footer .social-icons {
   margin: 0;
   padding: 0 20px;
   min-width: 163px;
 }
 
-.footer .social-icons i {
+footer .social-icons i {
   color: var(--secondary-color);
   transition: all 100ms ease-in-out;
 }
 
-.footer .social-icons i:hover {
+footer .social-icons i:hover {
   color: var(--accent-color);
 }
 
-.footer-rights {
+footer .footer-rights {
   font-size: 14px;
   text-align: right;
 }
 
-.footer-rights a {
+footer .footer-rights a {
   color: var(--accent-color);
   text-decoration: none;
   transition: all 100ms ease-in-out;
 }
 
-.footer-rights a:hover {
+footer .footer-rights a:hover {
   text-decoration: underline;
 }
 
