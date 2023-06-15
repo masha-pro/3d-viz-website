@@ -317,7 +317,13 @@ h1 {
 }
 
 .carousel {
-  margin: 0 60px 60px;
+  margin: 0 200px 60px;
+}
+
+@media (max-width: 1200px) {
+  .carousel {
+    margin: 0 60px 40px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -330,6 +336,8 @@ h1 {
     margin: 0 20px 20px;
   }
 }
+
+
 
 /* Contact */
 
