@@ -8,6 +8,9 @@
 body {
   background-color: var(--primary-color);
   font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 p {
@@ -68,6 +71,7 @@ footer {
   background-color: var(--header-color);
   padding: 20px 40px;
   align-items: center;
+  margin-top: auto;
 }
 
 footer .footer-brand {
@@ -382,14 +386,13 @@ form {
 
 .contact-image {
   border-radius: 10px;
-
 }
 
 @media (max-width: 576px) {
   .contact-form-image {
     margin: 0;
   }
-  
+
   .contact-heading {
     font-size: 32px;
     margin: 20px auto;
