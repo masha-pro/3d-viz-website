@@ -234,14 +234,16 @@ h1 {
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.1em;
+  margin: 0 0 14px; 
   text-transform: uppercase;
 }
 
 .about-paragraph {
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 28px;
   margin: 0 auto;
+  text-align: justify;
 }
 
 .social-icons {
