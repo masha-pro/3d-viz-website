@@ -386,6 +386,10 @@ form {
 }
 
 @media (max-width: 576px) {
+  .contact-form-image {
+    margin: 0;
+  }
+  
   .contact-heading {
     font-size: 32px;
     margin: 20px auto;
