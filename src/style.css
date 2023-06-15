@@ -144,9 +144,8 @@ h1 {
   font-weight: 600;
   letter-spacing: 0.1em;
   line-height: 85px;
-  margin: 0 auto;
+  margin: 0 auto 40px;
   max-width: 1000px;
-  padding-bottom: 40px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -167,6 +166,7 @@ h1 {
   font-weight: 600;
   letter-spacing: 0.1em;
   line-height: 17px;
+  max-width: fit-content;
   padding: 18px 40px;
   text-transform: uppercase;
 }
@@ -175,6 +175,18 @@ h1 {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   transition: all 100ms ease-in-out;
+}
+
+.contact-button a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 50px;
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -336,8 +348,6 @@ h1 {
     margin: 0 20px 20px;
   }
 }
-
-
 
 /* Contact */
 
