@@ -169,12 +169,13 @@ h1 {
   max-width: fit-content;
   padding: 18px 40px;
   text-transform: uppercase;
+  transition: all 100ms ease-in-out;
 }
 
 .contact-button:hover {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
-  transition: all 100ms ease-in-out;
+  box-shadow: 5px 5px 10px var(--header-color);
 }
 
 .contact-button a {
@@ -414,11 +415,12 @@ h1 {
   letter-spacing: 0.1em;
   padding: 10px 30px;
   text-transform: uppercase;
+  transition: all 100ms ease-in-out;
 }
 
 .send-button:hover {
   background-color: var(--accent-color);
-  transition: all 100ms ease-in-out;
+  box-shadow: 5px 5px 10px #464942;
 }
 
 .contact-image {
