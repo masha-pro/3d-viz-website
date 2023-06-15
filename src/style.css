@@ -14,9 +14,7 @@ p {
   color: var(--secondary-color);
 }
 
-/* Homepage */
-
-/* nav */
+/* Header */
 nav {
   padding: 20px 40px;
   background-color: var(--header-color);
@@ -62,7 +60,52 @@ nav span {
   font-size: 16px;
   font-weight: 400;
 }
-/* nav */
+
+/* Footer */
+
+.footer {
+  color: var(--secondary-color);
+  background-color: var(--header-color);
+  padding: 20px 40px;
+}
+
+.footer-brand {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+
+.footer .social-icons {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.footer .social-icons i {
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.footer .social-icons i:hover {
+  color: var(--accent-color);
+}
+
+.footer-rights {
+  font-size: 14px;
+}
+
+.footer-rights a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+.footer-rights a:hover {
+  text-decoration: underline;
+}
+
+/* Homepage */
 
 .hero {
   background-image: url(/img/1.jpg);
